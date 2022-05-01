@@ -1,0 +1,32 @@
+name: music_player
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  on_audio_query:
+#  audio_manager:
+  audioplayers:
+#  just_audio:
+#  audio_session:
+  permission_handler:
+  path_provider:
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+
